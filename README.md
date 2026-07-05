@@ -24,13 +24,6 @@
 
 ---
 
-# 📚 Striver A2Z Progress
-
-> 🚧 This section will be automated using GitHub Actions.
-
-<p align="center">
-<img src="assets/striver-progress.png" width="900">
-</p>
 
 ---
 
@@ -84,7 +77,7 @@
 - ✅ Complete Striver A2Z DSA Sheet
 - 🎯 Solve 300+ LeetCode Problems
 - 🎯 Strengthen Problem Solving Skills
-- 🎯 Prepare for TCS, Infosys & Product-Based Companies
+
 
 ---
 
