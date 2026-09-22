@@ -1,17 +1,14 @@
 class Solution {
     public void reverseString(char[] s) {
         int n=s.length;
-        char[] stack= new char[n];
-        int top=-1;
-
-        for(int i=0;i<n;i++){
-            top++;
-            stack[top]=s[i];
-        }
-
-        for(int i=0;i<n;i++){
-            s[i]=stack[top];
-            top--;
+        int left=0;
+        int right=n-1;
+        while(left<right){
+            char temp=s[left];
+            s[left]=s[right];
+            s[right]=temp;
+            left++;
+            right--;
         }
         
     }
